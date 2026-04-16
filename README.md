@@ -18,14 +18,11 @@ Created by **Arsynator**
 - **Customization Modal:** Edit your placeholder message and toggle shadows before generating nodes.
 - **Auto-Routing:** Automatically connects the final Merge node to your `MediaOut` and snaps nodes to a clean grid.
 
-## 🚀 Installation & Setup
-
-### 1. Install the Script
-Copy `7TV_Paint_Applier.py` into your DaVinci Resolve Fusion scripts directory:
-
-* **Windows:** `%APPDATA%\Blackmagic Design\DaVinci Resolve\Support\Fusion\Scripts\Comp\`
-* **macOS:** `~/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Comp/`
-* **Linux:** `~/.local/share/DaVinciResolve/Fusion/Scripts/Comp/`
+## 🚀 Installation
+1. Go to [Releases](link-to-your-release-page).
+2. Download `setup.exe`.
+3. Run the installer (it will automatically find your Resolve folders and check for Python).
+4. Restart DaVinci Resolve.
 
 ### 2. Run the Script
 The script requires an active Fusion composition to generate nodes. Follow these steps:
