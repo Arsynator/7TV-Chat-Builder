@@ -19,7 +19,7 @@ Created by **Arsynator**
 - **Auto-Routing:** Automatically connects the final Merge node to your `MediaOut` and snaps nodes to a clean grid.
 
 ## 🚀 Installation
-1. Go to [Releases](link-to-your-release-page).
+1. Go to [Releases](https://github.com/Arsynator/7TV-Chat-Builder/releases).
 2. Download `setup.exe`.
 3. Run the installer (it will automatically find your Resolve folders and check for Python).
 4. Restart DaVinci Resolve.
