@@ -18,7 +18,7 @@ Created by **Arsynator**
 - **Customization Modal:** Edit your placeholder message and toggle shadows before generating nodes.
 - **Auto-Routing:** Automatically connects the final Merge node to your `MediaOut` and snaps nodes to a clean grid.
 
-## 🚀 Installation
+## 🚀 Installation (for windows, for mac/linux use manual installation from below)
 1. Go to [Releases](https://github.com/Arsynator/7TV-Chat-Builder/releases).
 2. Download `setup.exe`.
 3. Run the installer (it will automatically find your Resolve folders and check for Python).
