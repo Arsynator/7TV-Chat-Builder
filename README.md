@@ -24,6 +24,20 @@ Created by **Arsynator**
 3. Run the installer (it will automatically find your Resolve folders and check for Python).
 4. Restart DaVinci Resolve.
 
+### 🛠️ Manual Installation (No .exe)
+If you prefer not to use the automated installer, you can install the script manually:
+
+1. **Download the script:** Download the `7TV_Paint_Applier.py` file from the source code.
+2. **Locate the Folder:** Navigate to your Resolve Fusion scripts directory:
+   * **Windows:** `%APPDATA%\Blackmagic Design\DaVinci Resolve\Support\Fusion\Scripts\Comp\`
+   * **macOS:** `~/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Comp/`
+   * **Linux:** `~/.local/share/DaVinciResolve/Fusion/Scripts/Comp/`
+3. **Move the File:** Drop the `.py` file into that `Comp` folder.
+4. **Dependencies:** Ensure you have [Python 3](https://www.python.org/downloads/) installed on your system and added to your **System PATH**.
+5. **Enable in Resolve:** * Open Resolve Preferences > System > General.
+   * Set **External scripting using** to **Python 3**.
+   * Restart DaVinci Resolve.
+
 ### 2. Run the Script
 The script requires an active Fusion composition to generate nodes. Follow these steps:
 
