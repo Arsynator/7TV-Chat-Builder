@@ -49,6 +49,9 @@ The script requires an active Fusion composition to generate nodes. Follow these
 3. **Customize:** Click "Customize & Apply" to change the placeholder chat text or toggle the shadow/glow effect.
 4. **Animated Paints:** For animated GIF/WebP paints, the button will change to "Open Image," allowing you to download the asset to use as a MediaIn. (this will be changed in the future when the animated paint support is added, check roadmap below)
 
+<img width="754" height="714" alt="Screenshot 2026-04-16 140732" src="https://github.com/user-attachments/assets/f3be1820-5344-471a-96dc-61eaf206765d" />
+
+
 ## 🛠 Troubleshooting
 
 **Script not appearing in the menu?**
