@@ -26,6 +26,7 @@ Created by **Arsynator**
 3. Run the installer. It will automatically locate your Resolve directories and verify your Python environment.
 4. Restart DaVinci Resolve.
 
+[![Download](https://img.shields.io/github/v/release/Arsynator/7TV-Chat-Builder?label=Download%20Setup.exe&style=for-the-badge)](https://github.com/Arsynator/7TV-Chat-Builder/releases/latest)
 > [!TIP]
 > **Windows SmartScreen Warning:** > Because this is a new open-source tool, Windows may show a "Protected your PC" popup. Click **"More info"** and then **"Run anyway"** to proceed. As the project gains more users and stars on GitHub, this warning will eventually disappear!
 
