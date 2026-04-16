@@ -18,11 +18,16 @@ Created by **Arsynator**
 - **Customization Modal:** Edit your placeholder message and toggle shadows before generating nodes.
 - **Auto-Routing:** Automatically connects the final Merge node to your `MediaOut` and snaps nodes to a clean grid.
 
-## 🚀 Installation (for windows, for mac/linux use manual installation from below)
-1. Go to [Releases](https://github.com/Arsynator/7TV-Chat-Builder/releases).
-2. Download `setup.exe`.
-3. Run the installer (it will automatically find your Resolve folders and check for Python).
+## 🚀 Installation (Windows)
+*For macOS or Linux, please use the **Manual Installation** steps below.*
+
+1. Go to the [Releases](https://github.com/Arsynator/7TV-Chat-Builder/releases) page.
+2. Download the latest `setup.exe`.
+3. Run the installer. It will automatically locate your Resolve directories and verify your Python environment.
 4. Restart DaVinci Resolve.
+
+> [!TIP]
+> **Windows SmartScreen Warning:** > Because this is a new open-source tool, Windows may show a "Protected your PC" popup. Click **"More info"** and then **"Run anyway"** to proceed. As the project gains more users and stars on GitHub, this warning will eventually disappear!
 
 ### 🛠️ Manual Installation (No .exe)
 If you prefer not to use the automated installer, you can install the script manually:
