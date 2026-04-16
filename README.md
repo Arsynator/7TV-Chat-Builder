@@ -18,31 +18,57 @@ Created by **Arsynator**
 - **Customization Modal:** Edit your placeholder message and toggle shadows before generating nodes.
 - **Auto-Routing:** Automatically connects the final Merge node to your `MediaOut` and snaps nodes to a clean grid.
 
-## 🚀 Installation
+## 🚀 Installation & Setup
 
-### 1. Locate your Fusion Scripts folder
-Copy the script (`7TV_Paint_Applier.py`) into the appropriate directory for your OS:
+### 1. Install the Script
+Copy `7TV_Paint_Applier.py` into your DaVinci Resolve Fusion scripts directory:
 
 * **Windows:** `%APPDATA%\Blackmagic Design\DaVinci Resolve\Support\Fusion\Scripts\Comp\`
 * **macOS:** `~/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Comp/`
 * **Linux:** `~/.local/share/DaVinciResolve/Fusion/Scripts/Comp/`
 
 ### 2. Run the Script
-1. Open **DaVinci Resolve** and go to the **Fusion Page**.
-2. Go to the top menu: **Workspace > Scripts > Comp > 7TV_Paint_Applier**.
-3. Search for a 7TV username, select a paint, and click **Customize & Apply**.
+The script requires an active Fusion composition to generate nodes. Follow these steps:
+
+1.  **Create a Composition:** * In the **Edit Page**, go to the **Effects Library > Toolbox > Generators**.
+    * Drag a **Fusion Composition** onto your timeline.
+    * Right-click the clip on the timeline and select **Open in Fusion Page**.
+2.  **Launch the Tool:**
+    * Once you are on the Fusion page (you should see a `MediaOut1` node), go to the top menu bar.
+    * Select **Workspace > Scripts > Comp > 7TV_Paint_Applier**.
+3.  **Generate Your Overlay:**
+    * Enter a **7TV Username** in the search bar and hit Enter.
+    * Select your desired paint from the list.
+    * Click **Customize & Apply** to open the layout menu.
+    * **Note:** The script automatically detects your `MediaOut1` node and wires the final Merge node into it for an instant preview.
 
 ## 🛠 Usage
 
-1. **Search:** Enter a username to see all paints owned by that user.
+1. **Search:** Enter a username to see all users that start with that name.
 2. **Preview:** Select a paint to see its color code or animated URL in the inspector.
 3. **Customize:** Click "Customize & Apply" to change the placeholder chat text or toggle the shadow/glow effect.
 4. **Animated Paints:** For animated GIF/WebP paints, the button will change to "Open Image," allowing you to download the asset to use as a MediaIn.
+
+## 🛠 Troubleshooting
+
+**Script not appearing in the menu?**
+* Ensure you have **Python 3.x** installed on your system.
+* In DaVinci Resolve, go to **Preferences > System > General**.
+* Check that **External scripting using** is set to **Python 3**.
+* Restart Resolve after changing these settings.
+
+**Nodes spawning in weird places?**
+* The script is designed to spawn nodes in the center of your current view. If you can't see them, check your **Flow View** (Node Graph) and zoom out; they are snapped to a clean 2x2 grid.
 
 ## 📝 Requirements
 
 - DaVinci Resolve 17/18/19 (Studio or Free)
 - Python 3.x installed and configured in Resolve Preferences.
+
+## 🗺️ Roadmap
+- [ ] **Native Animated Paint Support:** Automated downloading and looping of WebP/GIF assets directly into the Fusion timeline.
+- [ ] **Font Customization:** Select local system fonts from within the UI.
+- [ ] **Multi-Line Support:** Support for longer chat messages that wrap automatically.
 
 ## 🤝 Credits
 Developed by **Arsynator**. If you find this tool helpful, feel free to follow on [Twitch](https://twitch.tv/arsynatorlive)!
