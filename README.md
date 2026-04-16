@@ -47,7 +47,7 @@ The script requires an active Fusion composition to generate nodes. Follow these
 1. **Search:** Enter a username to see all users that start with that name.
 2. **Preview:** Select a paint to see its color code or animated URL in the inspector.
 3. **Customize:** Click "Customize & Apply" to change the placeholder chat text or toggle the shadow/glow effect.
-4. **Animated Paints:** For animated GIF/WebP paints, the button will change to "Open Image," allowing you to download the asset to use as a MediaIn.
+4. **Animated Paints:** For animated GIF/WebP paints, the button will change to "Open Image," allowing you to download the asset to use as a MediaIn. (this will be changed in the future when the animated paint support is added, check roadmap below)
 
 ## 🛠 Troubleshooting
 
